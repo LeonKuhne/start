@@ -1,0 +1,8 @@
+header start.leonk.dev
+debug shows my current start page shortcuts
+
+help .cd | indent
+
+function start() {
+  python3 -m http.server 8080
+}
