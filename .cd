@@ -6,3 +6,7 @@ help .cd | indent
 function start() {
   python3 -m http.server 8080
 }
+
+function add() {
+  ./add.sh $@
+}
